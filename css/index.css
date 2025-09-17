@@ -2,6 +2,7 @@ body {
     margin: 0px;
     font-family: "Crimson Text", serif;
     font-style: normal;
+    background-color: #e5e8eb;
 }
 .typewriter {
     display: flex;
@@ -69,7 +70,6 @@ p {
     display: flex;
     justify-content: center;
 }
-
 .crimson-text-semibold {
   font-family: "Crimson Text", serif;
   font-weight: 600;
@@ -80,7 +80,6 @@ p {
     width: 100%;
     padding-top: 0px;
 }
-
 .how, .place, .time {
     max-width: 400px;
     display: flex;
@@ -119,14 +118,16 @@ button {
     height: 100%;
     max-height: 100px;
     background-color: #81b5d8;
-    color: wheat;
+    color: white;
     padding: 30px;
     border-color: gray;
     border-radius: 13px;
     cursor: pointer;
 }
 button:hover {
-    background-color: rgb(255, 9, 9)5d8
+    background-color: #81b5d8;
+    transition: all 0.3s ease-in;
+    box-shadow: 1px 1px 12px black;
 }
 .crimson-text-bold {
   font-family: "Crimson Text", serif;
