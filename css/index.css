@@ -69,6 +69,7 @@ p {
     display: flex;
     justify-content: center;
 }
+
 .crimson-text-semibold {
   font-family: "Crimson Text", serif;
   font-weight: 600;
@@ -79,6 +80,7 @@ p {
     width: 100%;
     padding-top: 0px;
 }
+
 .how, .place, .time {
     max-width: 400px;
     display: flex;
@@ -91,7 +93,7 @@ p {
 }
 .container-bot {
     margin-top: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     padding-top: 0px;
     display: flex;
     justify-content: space-evenly;
@@ -99,6 +101,32 @@ p {
 .bot-text {
     font-size: 30px;
     width: 100%;
+}
+.container-btn {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    max-height: 200px;
+}
+button {
+    font-family: "Crimson Text", serif;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 100px;
+    font-size: 20px;
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 100px;
+    background-color: #81b5d8;
+    color: wheat;
+    padding: 30px;
+    border-color: gray;
+    border-radius: 13px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(255, 9, 9)5d8
 }
 .crimson-text-bold {
   font-family: "Crimson Text", serif;
