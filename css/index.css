@@ -54,7 +54,11 @@ p {
   font-weight: 600;
   font-style: normal;
 }
-
+#arrow {
+    max-width: 80px;
+    width: 100%;
+    padding-top: 0px;
+}
 .crimson-text-bold {
   font-family: "Crimson Text", serif;
   font-weight: 700;
