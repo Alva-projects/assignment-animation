@@ -59,6 +59,16 @@ p {
     width: 100%;
     padding-top: 0px;
 }
+.how, .place, .time {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+.icon {
+    max-width: 180px;
+    width: 100%;
+}
 .crimson-text-bold {
   font-family: "Crimson Text", serif;
   font-weight: 700;
