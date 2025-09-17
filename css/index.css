@@ -3,14 +3,34 @@ body {
     font-family: "Crimson Text", serif;
     font-style: normal;
 }
-h2 {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    font-weight: 300;
+.typewriter {
+    display: flex;
+    justify-content: center;
+}
+.typewriter h2 {
+    font-family: "Crimson Text", serif;
     font-size: 100px;
     letter-spacing: 60px;
+    margin-inline: auto;
+    overflow: hidden;
+    white-space: nowrrap;
+    border-right: 1px solid;
+    animation: typing 2s steps(30) forwards,
+    blink 1s step-end infinite;
 }
-
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
 p {
     font-size: 30px;
 }
